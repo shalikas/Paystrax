@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bus_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Bus Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Available</fullName>
+                <default>true</default>
+                <label>Available</label>
+            </value>
+            <value>
+                <fullName>Limited Seats</fullName>
+                <default>false</default>
+                <label>Limited Seats</label>
+            </value>
+            <value>
+                <fullName>Full</fullName>
+                <default>false</default>
+                <label>Full</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
