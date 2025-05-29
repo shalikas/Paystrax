@@ -95,3 +95,7 @@ System.debug('Buses: ' + [SELECT COUNT() FROM Bus__c]);
 System.debug('Passengers: ' + [SELECT COUNT() FROM Passenger__c]);
 System.debug('🚀 Test data ready!');
 ```
+
+# Expected result
+
+![alt text](image.png)
